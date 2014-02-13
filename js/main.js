@@ -15,10 +15,12 @@ $(document).ready(function(){
     $('.order-box .order-row:last').addClass('last');
     $('.other-rating img:first').addClass('first');
     $('.radio-button-box .input-box:last-child').addClass('last');
-    $('.catalog-row .global-pix:last-child').addClass('last');
+    $('.catalog-row .global-pix:nth-child(4n+3)').addClass('column-3');
+    $('.catalog-row .global-pix:nth-child(4n)').addClass('column-4');
     $('.order-box .catalog-row:last').addClass('last');
     $('.pack-box-row .pack-box:last-child').addClass('last');
     $('.order-row .my-films:last-child').addClass('last');
+    $('.main-content.map ul li:last').addClass('last');
     
     
     //remove default input text
