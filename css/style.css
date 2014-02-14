@@ -3438,3 +3438,20 @@ html, body{
     opacity: 1 !important;
     color: #fff;
 }
+
+#wrapper .favorites{
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-image: url('../img/bg-favorites.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 30;
+    right: 10px;
+    top: 10px;
+}
+
+#wrapper .favorites:hover{
+    background-position: right 0;
+}
