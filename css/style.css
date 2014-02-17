@@ -12,83 +12,92 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-        font-family: arial;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: arial;
 }
 
-a{
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
     outline: none;
     font-family: arial;
 }
 
 /* Clearfix */
-.clearfix { display: inline-block; }
-
-.clearfix:after {
-	clear: both;
-	content: ' ';
-	display: block;
-	font-size: 0;
-	line-height: 0;
-	visibility: hidden;
-	width: 0;
-	height: 0
+.clearfix {
+    display: inline-block;
 }
 
+.clearfix:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0
+}
 
-.clearfix { display:block; }
+.clearfix {
+    display: block;
+}
 
 /*===================================
 1.1. Defaults,  h1, h2, h3, h4, h5, a
 ===================================*/
 h1 {
-	font-size: 24px;
-	line-height: 30px;
-	color: #0898d2;
-	text-decoration: none;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0898d2;
+    text-decoration: none;
 }
 
 h2 {
-	font-size: 19px;
-	line-height: 24px;
-	color: #0898d2;
-	text-decoration: none;
+    font-size: 19px;
+    line-height: 24px;
+    color: #0898d2;
+    text-decoration: none;
 }
 
 h3 {
-	color: #0898d2;
+    color: #0898d2;
 }
 
 h4, h5, h6 {
@@ -96,39 +105,49 @@ h4, h5, h6 {
 }
 
 a, a:link, a:visited {
-	color: #545454;
-	font-size: 12px;
+    color: #545454;
+    font-size: 12px;
 }
 
 ul, ol {
-	padding: 0px 0px 15px 15px;
-	margin: 0px;
+    padding: 0px 0px 15px 15px;
+    margin: 0px;
 }
 
 ol {
-	padding-left: 25px;
-}
-p{
-	padding: 0px 0px 18px 0px;
+    padding-left: 25px;
 }
 
-a:hover, a:visited:hover { text-decoration: none; }
+p {
+    padding: 0px 0px 18px 0px;
+}
 
-.floatLeft { float: left; }
+a:hover, a:visited:hover {
+    text-decoration: none;
+}
 
-.floatRight { float: right; }
+.floatLeft {
+    float: left;
+}
 
-.alignCenter { text-align: center; display: block; }
+.floatRight {
+    float: right;
+}
+
+.alignCenter {
+    text-align: center;
+    display: block;
+}
 
 .bg-none {
-	background: none !important;
+    background: none !important;
 }
 
-.overflow-none{
+.overflow-none {
     overflow: inherit !important;
 }
 
-.italic{
+.italic {
     font-style: italic;
 }
 
@@ -136,34 +155,33 @@ a:hover, a:visited:hover { text-decoration: none; }
 1 Wrapper
 ===============================*/
 
-.center-box{
+.center-box {
     max-width: 1030px;
     min-width: 980px;
     margin: 0 auto;
     padding: 0 4px;
 }
 
-
 /*==============================
 2 Header
 ===============================*/
 
-.registration-form{
+.registration-form {
     padding: 8px 0 7px 0;
 }
 
-.left-form-side{
+.left-form-side {
     float: left;
     margin: 0 18px 0 30px;
 }
 
-.registration-form .input-box{
+.registration-form .input-box {
     margin: 0 0 4px 0;
     clear: both;
 }
 
 .registration-form input[type=text],
-.registration-form input[type=password]{
+.registration-form input[type=password] {
     width: 205px;
     height: 29px;
     padding: 0 10px 0 35px;
@@ -181,31 +199,31 @@ a:hover, a:visited:hover { text-decoration: none; }
     background-repeat: no-repeat;
 }
 
-.registration-form input[type=password]{
+.registration-form input[type=password] {
     background-image: url('../img/bg-input-pass.png');
     background-position: 10px 5px;
     background-repeat: no-repeat;
 }
 
 .registration-form input[type=text]:hover,
-.registration-form input[type=password]:hover{
+.registration-form input[type=password]:hover {
     border-color: #248dc1;
 }
 
-.center-form{
+.center-form {
     float: left;
     padding: 5px 0 0 0;
 }
 
-.center-form input[type=checkbox]{
+.center-form input[type=checkbox] {
     opacity: 0;
 }
 
-.checker{
+.checker {
     float: left;
 }
 
-.checker span{
+.checker span {
     background-image: url('../img/bg-checkbox.png');
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -215,12 +233,12 @@ a:hover, a:visited:hover { text-decoration: none; }
     margin: 3px 5px 0 0;
 }
 
-.checker span.checked{
+.checker span.checked {
     background-position: 0 bottom;
 }
 
-.center-form label, 
-.center-form a{
+.center-form label,
+.center-form a {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     line-height: 12px;
@@ -229,25 +247,24 @@ a:hover, a:visited:hover { text-decoration: none; }
     padding: 4px 0 0 0;
 }
 
-.center-form a{
+.center-form a {
     background-image: url('../img/forgot-pass.png');
     background-position: 0 4px;
     background-repeat: no-repeat;
     padding: 4px 0 4px 22px;
 }
 
-.input-box.check{
+.input-box.check {
     float: left;
     margin: 0 8px 0 0;
     clear: inherit;
 }
 
-
-.input-box.margin{
+.input-box.margin {
     margin: 0 0 15px 0;
 }
 
-.input-box input[type=submit]{
+.input-box input[type=submit] {
     width: 250px;
     height: 29px;
     background-color: #00adef;
@@ -262,11 +279,11 @@ a:hover, a:visited:hover { text-decoration: none; }
     border-radius: 3px;
 }
 
-.input-box input[type=submit]:hover{
+.input-box input[type=submit]:hover {
     background-color: #248ec2;
 }
 
-.right-form-side{
+.right-form-side {
     padding: 3px 0 0 0;
     float: right;
     margin: 0 35px 0 0;
@@ -276,22 +293,22 @@ a:hover, a:visited:hover { text-decoration: none; }
 3 Banner-box
 ===============================*/
 
-.banner-box{
+.banner-box {
     position: relative;
     border-bottom: 1px solid #fff;
 }
 
-.banner-box .image{
+.banner-box .image {
     text-align: center;
     font-size: 0;
     background-color: #000;
 }
 
-.banner-box .image img{
+.banner-box .image img {
     max-width: 100%;
 }
 
-.banner-box .center-box{
+.banner-box .center-box {
     position: absolute;
     left: 50%;
     bottom: 120px;
@@ -300,7 +317,7 @@ a:hover, a:visited:hover { text-decoration: none; }
     text-align: center;
 }
 
-.logo{
+.logo {
     width: 133px;
     height: 60px;
     top: 20px;
@@ -309,7 +326,7 @@ a:hover, a:visited:hover { text-decoration: none; }
     position: absolute;
 }
 
-.logo a{
+.logo a {
     width: 133px;
     height: 0;
     padding-top: 60px;
@@ -320,16 +337,16 @@ a:hover, a:visited:hover { text-decoration: none; }
     background-repeat: no-repeat;
 }
 
-.other-widget{
+.other-widget {
     width: 19%;
     display: inline-block;
 }
 
-.other-widget:hover{
+.other-widget:hover {
     margin-bottom: -50px;
 }
 
-.other-widget a{
+.other-widget a {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     line-height: 20px;
@@ -341,13 +358,13 @@ a:hover, a:visited:hover { text-decoration: none; }
     z-index: 5;
 }
 
-.other-widget a img{
+.other-widget a img {
     margin: 0 0 30px 0;
     width: 107px;
     height: 106px;
 }
 
-.other-widget a:hover{
+.other-widget a:hover {
     background-image: url('../img/bg-hover-widget.png');
     background-position: 0 0;
     background-repeat: repeat-x;
@@ -361,11 +378,11 @@ a:hover, a:visited:hover { text-decoration: none; }
     z-index: 10;
     position: relative;
     -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 1);
-    -moz-box-shadow:    0px 0px 16px 0px rgba(0, 0, 0, 1);
-    box-shadow:         0px 0px 16px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 1);
 }
 
-.other-widget a:hover img{
+.other-widget a:hover img {
     width: 130px;
     height: 131px;
 }
@@ -374,34 +391,34 @@ a:hover, a:visited:hover { text-decoration: none; }
 4 Container
 ===============================*/
 
-#container{
+#container {
     background-image: url('../img/bg-container.png');
     background-position: 0 0;
     background-repeat: repeat;
     position: relative;
 }
 
-#container .center-box.minus-margin{
+#container .center-box.minus-margin {
     top: -93px;
     position: relative;
 }
 
-.slider{
+.slider {
     background-color: #fff;
     padding: 27px 45px 15px 45px;
     border-radius: 15px;
     position: relative;
     margin: 0 0 33px;
     -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 1);
-    -moz-box-shadow:    0px 1px 5px 0px rgba(0, 0, 0, 1);
-    box-shadow:         0px 1px 5px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 1);
 }
 
-.slider.last{
+.slider.last {
     margin: 0;
 }
 
-.slider h2{
+.slider h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 29px;
     line-height: 29px;
@@ -411,30 +428,30 @@ a:hover, a:visited:hover { text-decoration: none; }
     padding: 0 0 30px 0;
 }
 
-.flex-viewport{
+.flex-viewport {
     margin: 0 0 15px 0;
 }
 
-.flex-viewport ul{
+.flex-viewport ul {
     padding: 0;
 }
 
-.flex-viewport ul li a img{
+.flex-viewport ul li a img {
     border: 4px solid transparent;
     border-radius: 6px;
     max-width: 153px;
     max-height: 227px;
 }
 
-.flex-viewport ul li a img:hover{
+.flex-viewport ul li a img:hover {
     border: 4px solid #0099d2;
 }
 
-.flex-direction-nav{
+.flex-direction-nav {
     padding: 0;
 }
 
-.flex-prev{
+.flex-prev {
     background-image: url('../img/prev-btn.png');
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -448,7 +465,7 @@ a:hover, a:visited:hover { text-decoration: none; }
     top: 155px;
 }
 
-.flex-next{
+.flex-next {
     background-image: url('../img/next-btn.png');
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -462,23 +479,23 @@ a:hover, a:visited:hover { text-decoration: none; }
     top: 155px;
 }
 
-.flex-prev:hover{
+.flex-prev:hover {
     background-position: 0 bottom;
 }
 
-.flex-control-nav{
+.flex-control-nav {
     padding: 0;
     margin: 0 auto;
     width: 200px;
     text-align: center;
 }
 
-.flex-control-nav li{
+.flex-control-nav li {
     display: inline-block;
     margin: 0 3px;
 }
 
-.flex-control-nav a{
+.flex-control-nav a {
     background-image: url('../img/bg-controls.png');
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -489,37 +506,37 @@ a:hover, a:visited:hover { text-decoration: none; }
     overflow: hidden;
 }
 
-.flex-control-nav a.flex-active{
+.flex-control-nav a.flex-active {
     background-position: 0 bottom;
 }
 
-.flexslider2 .image-box{
+.flexslider2 .image-box {
     font-size: 0;
     position: relative;
 }
 
-.flexslider2 .first-li .text-box{
+.flexslider2 .first-li .text-box {
     border-bottom: 5px solid #f7a22f;
     border-radius: 0px 0px 3px 3px;
 }
 
-.flexslider2 .second-li .text-box{
+.flexslider2 .second-li .text-box {
     border-bottom: 5px solid #45a6cc;
     border-radius: 0px 0px 3px 3px;
 }
 
-.flexslider2 .third-li .text-box{
+.flexslider2 .third-li .text-box {
     border-bottom: 5px solid #ff3e95;
     border-radius: 0px 0px 3px 3px;
 }
 
-.flexslider2 .text-box{
+.flexslider2 .text-box {
     background-color: #2e3133;
     width: 275px;
     padding: 0 12px 0 13px;
 }
 
-.flexslider2 .text-box h6{
+.flexslider2 .text-box h6 {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     line-height: 20px;
@@ -527,7 +544,7 @@ a:hover, a:visited:hover { text-decoration: none; }
     padding: 6px 0;
 }
 
-.flexslider2 .text-box p{
+.flexslider2 .text-box p {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 18px;
@@ -535,7 +552,7 @@ a:hover, a:visited:hover { text-decoration: none; }
     padding: 0 0 6px 0;
 }
 
-.flexslider2 .channels{
+.flexslider2 .channels {
     background-image: url('../img/bg-channels.png');
     background-position: 0 0;
     background-repeat: repeat-x;
@@ -547,7 +564,7 @@ a:hover, a:visited:hover { text-decoration: none; }
     bottom: 0;
 }
 
-.flexslider2 .channels p{
+.flexslider2 .channels p {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     line-height: 12px;
@@ -556,7 +573,7 @@ a:hover, a:visited:hover { text-decoration: none; }
     float: left;
 }
 
-.flexslider2 .channels p span{
+.flexslider2 .channels p span {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     line-height: 12px;
@@ -566,19 +583,19 @@ a:hover, a:visited:hover { text-decoration: none; }
     border-radius: 2px;
 }
 
-.flexslider2 .first-li .channels p span{
+.flexslider2 .first-li .channels p span {
     background-color: #f7a22f;
 }
 
-.flexslider2 .second-li .channels p span{
+.flexslider2 .second-li .channels p span {
     background-color: #45a6cc;
 }
 
-.flexslider2 .third-li .channels p span{
+.flexslider2 .third-li .channels p span {
     background-color: #ff3e95;
 }
 
-a.up{
+a.up {
     width: 58px;
     height: 58px;
     display: block;
@@ -592,7 +609,7 @@ a.up{
     z-index: 999;
 }
 
-a.up:hover{
+a.up:hover {
     background-position: 0 bottom;
 }
 
@@ -600,18 +617,18 @@ a.up:hover{
 5 Footer
 ===============================*/
 
-#footer{
+#footer {
     background-color: #606060;
 }
 
-#footer .small-logo{
+#footer .small-logo {
     width: 86px;
     height: 39px;
     float: left;
     margin: 12px 0 0 0;
 }
 
-#footer .small-logo a{
+#footer .small-logo a {
     width: 86px;
     height: 0;
     padding-top: 39px;
@@ -622,31 +639,31 @@ a.up:hover{
     background-repeat: no-repeat;
 }
 
-.footer-nav{
+.footer-nav {
     float: right;
 }
 
-.footer-nav ul{
+.footer-nav ul {
     padding: 0;
 }
 
-.footer-nav ul li{
+.footer-nav ul li {
     float: left;
     border-right: 1px solid #9d9d9d;
     height: 60px;
     margin: 0 8px 0 0;
 }
 
-.footer-nav ul li.last{
+.footer-nav ul li.last {
     margin: 0;
     border: none;
 }
 
-.footer-nav ul li.last a{
+.footer-nav ul li.last a {
     padding-right: 0;
 }
 
-.footer-nav ul li a{
+.footer-nav ul li a {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     line-height: 20px;
@@ -656,7 +673,7 @@ a.up:hover{
     display: block;
 }
 
-.footer-nav ul li a:hover{
+.footer-nav ul li a:hover {
     text-decoration: underline;
 }
 
@@ -664,13 +681,13 @@ a.up:hover{
 6 Style for page About-package
 ===============================*/
 
-body.other-bg{
+body.other-bg {
     background-image: url('../img/bg-body.png');
     background-position: 0 0;
     background-repeat: repeat;
 }
 
-.header-top{
+.header-top {
     border-top: 4px solid #7b7b7b;
     background-color: #00aeef;
     position: fixed;
@@ -679,31 +696,31 @@ body.other-bg{
     box-shadow: 0 0 5px #000;
 }
 
-.main-nav{
+.main-nav {
     float: left;
     margin: 0 0 0 30px;
 }
 
-.main-nav ul{
+.main-nav ul {
     padding: 0;
 }
 
-.main-nav > ul > li{
+.main-nav > ul > li {
     float: left;
     border-left: 1px solid #0d79a3;
     height: 45px;
     position: relative;
 }
 
-.main-nav > ul > li:hover .submenu{
+.main-nav > ul > li:hover .submenu {
     display: block;
 }
 
-.main-nav > ul > li.last{
+.main-nav > ul > li.last {
     border-right: 1px solid #5fcef7;
 }
 
-.main-nav > ul > li > a{
+.main-nav > ul > li > a {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -716,7 +733,7 @@ body.other-bg{
     padding: 13px 8px 0 7px;
 }
 
-.main-nav > ul > li.last > a{
+.main-nav > ul > li.last > a {
     border-right: 1px solid #0d79a3;
     background-image: url('../img/white-arrow.png');
     background-position: 80px 21px;
@@ -724,19 +741,19 @@ body.other-bg{
     padding-right: 20px;
 }
 
-.main-nav > ul > li > a:hover{
+.main-nav > ul > li > a:hover {
     background-color: #007fb1;
 }
 
-.main-nav > ul > li > a:active{
+.main-nav > ul > li > a:active {
     background-color: #005f84;
 }
 
-.main-nav > ul > li > a.current{
+.main-nav > ul > li > a.current {
     background-color: #005f84;
 }
 
-.submenu{
+.submenu {
     background-color: #2e3133;
     width: 270px;
     padding: 4px 0;
@@ -748,11 +765,11 @@ body.other-bg{
     z-index: 20;
 }
 
-.submenu ul{
+.submenu ul {
     padding: 0;
 }
 
-.submenu ul li a{
+.submenu ul li a {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -763,26 +780,26 @@ body.other-bg{
     padding: 15px 0 0 20px;
 }
 
-.submenu ul li a:hover{
+.submenu ul li a:hover {
     background-color: #45a6cc;
 }
 
-.right-side-header{
+.right-side-header {
     float: right;
     margin: 0 30px 0 0;
 }
 
-.right-side-header ul{
+.right-side-header ul {
     padding: 0;
 }
 
-.right-side-header ul li{
+.right-side-header ul li {
     float: left;
     border-right: 1px solid #5fcef7;
     height: 45px;
 }
 
-.right-side-header a{
+.right-side-header a {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -795,42 +812,41 @@ body.other-bg{
     padding: 13px 8px 0 7px;
 }
 
-.right-side-header a.exit{
+.right-side-header a.exit {
     text-transform: uppercase;
     font-weight: normal;
 }
 
-.right-side-header a.exit:hover{
+.right-side-header a.exit:hover {
     background-color: #007fb1;
 }
 
-
-.right-side-header a.name{
+.right-side-header a.name {
     background-image: url('../img/name-bg.png');
     background-position: 0 8px;
     background-repeat: no-repeat;
     padding-left: 35px;
 }
 
-.right-side-header a.name:hover{
+.right-side-header a.name:hover {
     background-image: url('../img/name-bg-hover.png');
     text-decoration: underline;
 }
 
-.header-bottom{
+.header-bottom {
     padding: 68px 0 20px 0;
 }
 
-.logo.other-pages{
+.logo.other-pages {
     top: 65px;
 }
 
-.header-bottom .input-box{
+.header-bottom .input-box {
     float: right;
     margin: 0 30px 0 0;
 }
 
-.header-bottom input[type=text]{
+.header-bottom input[type=text] {
     background-color: #f7f5f2;
     width: 140px;
     height: 40px;
@@ -848,26 +864,26 @@ body.other-bg{
     margin: 10px 0 0;
 }
 
-body.other-bg #container{
+body.other-bg #container {
     background-image: none;
 }
 
-#container .center-box{
+#container .center-box {
     position: relative;
 }
 
-.main-content{
+.main-content {
     background-color: #fff;
     border-radius: 15px;
     position: relative;
     z-index: 10;
     margin: 0 0 23px 0;
     -webkit-box-shadow: 0px 5px 5px 0px rgba(117, 117, 117, 1);
-    -moz-box-shadow:    0px 5px 5px 0px rgba(117, 117, 117, 1);
-    box-shadow:         0px 5px 5px 0px rgba(117, 117, 117, 1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(117, 117, 117, 1);
+    box-shadow: 0px 5px 5px 0px rgba(117, 117, 117, 1);
 }
 
-.main-content h1{
+.main-content h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     line-height: 30px;
@@ -876,15 +892,15 @@ body.other-bg #container{
     padding: 28px 0 10px 30px;
 }
 
-.bread-crumbs{
+.bread-crumbs {
     margin: 0 0 20px 30px;
 }
 
-.bread-crumbs ul{
+.bread-crumbs ul {
     padding: 0;
 }
 
-.bread-crumbs ul li{
+.bread-crumbs ul li {
     float: left;
     background-image: url('../img/bg-bread-crumbs.png');
     background-position: right 7px;
@@ -893,11 +909,11 @@ body.other-bg #container{
     margin: 0 6px 0 0;
 }
 
-.bread-crumbs ul li.last{
+.bread-crumbs ul li.last {
     background-image: none;
 }
 
-.bread-crumbs ul li a{
+.bread-crumbs ul li a {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 14px;
@@ -905,15 +921,15 @@ body.other-bg #container{
     text-decoration: none;
 }
 
-.bread-crumbs ul li a:hover{
+.bread-crumbs ul li a:hover {
     text-decoration: underline;
 }
 
-.main-content .banner{
+.main-content .banner {
     margin: 0 0 35px 0;
 }
 
-.main-content .text-box p{
+.main-content .text-box p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 18px;
@@ -923,7 +939,7 @@ body.other-bg #container{
     text-align: justify;
 }
 
-.main-content a.subscribe{
+.main-content a.subscribe {
     background-image: url('../img/bg-subscribe.png');
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -944,18 +960,18 @@ body.other-bg #container{
     top: 445px;
 }
 
-.main-content a.subscribe:hover{
+.main-content a.subscribe:hover {
     background-position: 0 bottom;
 }
 
-.widget-box{
+.widget-box {
     position: absolute;
     left: 0;
     top: 104px;
     width: 1030px;
 }
 
-.widget-box h2{
+.widget-box h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     line-height: 30px;
@@ -965,7 +981,7 @@ body.other-bg #container{
     text-shadow: 1px 0px 1px rgba(0, 0, 0, 1);
 }
 
-.widget-box h2 span{
+.widget-box h2 span {
     font-family: 'Open Sans', sans-serif;
     font-size: 75px;
     line-height: 75px;
@@ -973,18 +989,18 @@ body.other-bg #container{
     font-weight: 700;
 }
 
-.subscription{
+.subscription {
     width: 180px;
     margin: 0 auto 33px;
 }
 
-.price{
+.price {
     background-image: url('../img/bg-price.png');
     background-position: 0 0;
     background-repeat: repeat;
 }
 
-.price p{
+.price p {
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     line-height: 17px;
@@ -994,18 +1010,18 @@ body.other-bg #container{
     padding: 0 0 10px 0;
 }
 
-.price p span{
+.price p span {
     font-family: 'Open Sans', sans-serif;
     font-size: 75px;
     line-height: 75px;
     font-weight: 300;
 }
 
-.quantity{
+.quantity {
     background-color: #007fb1;
 }
 
-.quantity p{
+.quantity p {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     line-height: 13px;
@@ -1015,7 +1031,7 @@ body.other-bg #container{
     text-align: center;
 }
 
-.quantity p span{
+.quantity p span {
     font-family: 'Open Sans', sans-serif;
     font-size: 45px;
     line-height: 45px;
@@ -1023,21 +1039,21 @@ body.other-bg #container{
     font-weight: 300;
 }
 
-.quantity p.leftp{
+.quantity p.leftp {
     border-right: 1px solid #78bbd6;
     width: 70px;
 }
 
-.quantity p.rightp{
+.quantity p.rightp {
     width: 109px;
 }
 
-.inner-content{
+.inner-content {
     background-color: #eee;
     border-radius: 15px;
 }
 
-.inner-content h3{
+.inner-content h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     line-height: 20px;
@@ -1047,35 +1063,35 @@ body.other-bg #container{
     padding: 13px 0 10px 0;
 }
 
-.channels-box{
+.channels-box {
     background-color: #fff;
     border-radius: 15px;
 }
 
-.other-channel{
+.other-channel {
     border-bottom: 1px solid #00aeef;
     margin: 0 30px;
     padding: 25px 0 20px;
     position: relative;
 }
 
-.other-channel.last{
+.other-channel.last {
     border-bottom: none;
 }
 
-.other-channel .image-box{
+.other-channel .image-box {
     width: 170px;
     padding: 0 25px 0 30px;
     float: left;
     text-align: center;
 }
 
-.other-channel .text-box{
+.other-channel .text-box {
     float: left;
     width: 745px;
 }
 
-.other-channel .text-box h6{
+.other-channel .text-box h6 {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     line-height: 18px;
@@ -1084,7 +1100,7 @@ body.other-bg #container{
     padding: 0 0 8px 0;
 }
 
-.other-channel .text-box p{
+.other-channel .text-box p {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 19px;
@@ -1093,7 +1109,7 @@ body.other-bg #container{
     padding: 0;
 }
 
-.other-channel a.detail{
+.other-channel a.detail {
     background-image: url('../img/bg-detail.png');
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -1112,11 +1128,11 @@ body.other-bg #container{
     padding: 4px 0 0 34px;
 }
 
-.other-channel a.detail:hover{
+.other-channel a.detail:hover {
     background-position: 0 bottom;
 }
 
-a.up.about-package{
+a.up.about-package {
     right: -80px;
     top: 780px;
 }
@@ -1125,7 +1141,7 @@ a.up.about-package{
 6 Style for page About-channel
 ===============================*/
 
-.video-box{
+.video-box {
     background-image: url('../img/bg-video-box.png');
     background-position: 0 0;
     background-repeat: repeat;
@@ -1133,25 +1149,25 @@ a.up.about-package{
     font-size: 0;
 }
 
-.video-box .video{
+.video-box .video {
     width: 640px;
     height: 390px;
     margin: 0 auto;
 }
 
-.text-box .image-box{
+.text-box .image-box {
     float: left;
     width: 170px;
     padding: 0 80px;
 }
 
-.text-box .description{
+.text-box .description {
     width: 670px;
     float: left;
     padding: 0 0 20px 0;
 }
 
-.text-box .description h5{
+.text-box .description h5 {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     line-height: 20px;
@@ -1159,7 +1175,7 @@ a.up.about-package{
     padding: 0 0 8px 0;
 }
 
-.text-box .description p{
+.text-box .description p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 18px;
@@ -1167,11 +1183,11 @@ a.up.about-package{
     padding: 0;
 }
 
-.main-content.about-channel{
+.main-content.about-channel {
     padding: 0 30px 30px 30px;
 }
 
-.main-content.about-channel h3{
+.main-content.about-channel h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     line-height: 20px;
@@ -1179,12 +1195,12 @@ a.up.about-package{
     padding: 20px 0;
 }
 
-.prev-next{
+.prev-next {
     margin: 0 0 20px 0;
 }
 
 .prev-next a.prev,
-.prev-next a.next{
+.prev-next a.next {
     width: 269px;
     height: 26px;
     display: block;
@@ -1204,11 +1220,11 @@ a.up.about-package{
     float: left;
 }
 
-.prev-next a.prev{
+.prev-next a.prev {
     margin: 0 30px 0 0;
 }
 
-.prev-next a.next{
+.prev-next a.next {
     background-image: url('../img/next-arrow.png');
     background-position: 169px 10px;
     background-repeat: no-repeat;
@@ -1216,11 +1232,11 @@ a.up.about-package{
 }
 
 .prev-next a.prev:hover,
-.prev-next a.next:hover{
+.prev-next a.next:hover {
     background-color: #ebebeb;
 }
 
-.prev-next .today{
+.prev-next .today {
     background-color: #007fb1;
     width: 300px;
     height: 40px;
@@ -1229,7 +1245,7 @@ a.up.about-package{
     margin: 0 30px 0 0;
 }
 
-.prev-next .today p{
+.prev-next .today p {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 16px;
@@ -1238,33 +1254,33 @@ a.up.about-package{
     padding: 12px 0 0 0;
 }
 
-.prev-next .calendar{
+.prev-next .calendar {
     float: left;
 }
 
-.program{
+.program {
     border: 1px solid #e8e8e8;
     border-radius: 3px;
 }
 
-.program > ul{
+.program > ul {
     padding: 0;
 }
 
-.program > ul > li{
+.program > ul > li {
     border-bottom: 1px solid #e8e8e8;
     height: 49px;
 }
 
-.program > ul > li:hover{
+.program > ul > li:hover {
     background-color: #f5f5f5;
 }
 
-.program ul li.now{
+.program ul li.now {
     background-color: #f3fcff;
 }
 
-.program > ul > li span.text{
+.program > ul > li span.text {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     line-height: 18px;
@@ -1274,7 +1290,7 @@ a.up.about-package{
     float: left;
 }
 
-.program ul li span.on-air{
+.program ul li span.on-air {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     line-height: 13px;
@@ -1291,11 +1307,11 @@ a.up.about-package{
     margin: 12px 10px 0 0;
 }
 
-.program ul li.last{
+.program ul li.last {
     border-bottom: none;
 }
 
-.program ul li span.time{
+.program ul li span.time {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     line-height: 25px;
@@ -1310,15 +1326,15 @@ a.up.about-package{
     padding: 11px 0 0 0;
 }
 
-.program ul li.last span.time{
+.program ul li.last span.time {
     border-radius: 0 0 0 3px;
 }
 
-.program ul li.first span.time{
+.program ul li.first span.time {
     border-radius: 3px 0 0 0;
 }
 
-.program ul li a.record{
+.program ul li a.record {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     line-height: 18px;
@@ -1335,7 +1351,7 @@ a.up.about-package{
     padding: 9px 0 0 39px;
 }
 
-.program ul li a.record:hover{
+.program ul li a.record:hover {
     background-color: #ebebeb;
     border-radius: 3px;
 }
@@ -1344,62 +1360,62 @@ a.up.about-package{
 7 Style for page About-season
 ===============================*/
 
-.main-content h1.lowercase{
+.main-content h1.lowercase {
     text-transform: none;
 }
 
-.description-row{
+.description-row {
     padding: 0 30px 20px 30px;
 }
 
-.poster{
+.poster {
     float: left;
     width: 269px;
     margin: 0 30px 0 0;
 }
 
-.poster img.main-poster{
+.poster img.main-poster {
     margin: 0 0 10px 0;
 }
 
 .description-row .description p,
-.description p a{
+.description p a {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 18px;
     color: #000;
 }
 
-.description p a{
+.description p a {
     text-decoration: none;
     border-bottom: 1px dashed #000;
 }
 
-.description p a:hover{
+.description p a:hover {
     border-bottom: none;
 }
 
-.about-film{
+.about-film {
     width: 670px;
     float: left;
 }
 
-.right-top-description{
+.right-top-description {
     float: left;
     width: 670px;
 }
 
-.right-top-description ul{
+.right-top-description ul {
     padding: 0;
 }
 
-.right-top-description ul li{
+.right-top-description ul li {
     padding: 0 0 6px 0;
     margin: 0 0 6px 0;
     border-bottom: 1px dashed #000;
 }
 
-.right-top-description ul li span.right{
+.right-top-description ul li span.right {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     line-height: 12px;
@@ -1408,7 +1424,7 @@ a.up.about-package{
     width: 575px;
 }
 
-.right-top-description ul li span.left{
+.right-top-description ul li span.left {
     width: 95px;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
@@ -1418,41 +1434,41 @@ a.up.about-package{
     float: left;
 }
 
-.left-top-description{
+.left-top-description {
     float: left;
     width: 270px;
 }
 
-.left-top-description .rating{
+.left-top-description .rating {
     margin: 0 0 10px 0;
 }
 
-.rating .rating1{
+.rating .rating1 {
     float: left;
     width: 102px;
     margin-right: 15px;
 }
 
-.rating .rating2{
+.rating .rating2 {
     float: left;
     width: 99px;
 }
 
-.radio-box{
+.radio-box {
     margin: 0 0 7px 0;
 }
 
-.radio-box .input-box{
+.radio-box .input-box {
     float: left;
     margin: 0 15px 0 0;
     width: 125px;
 }
 
-.radio-box .input-box.last{
+.radio-box .input-box.last {
     margin: 0;
 }
 
-.radio-box p{
+.radio-box p {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -1462,7 +1478,7 @@ a.up.about-package{
     float: left;
 }
 
-.radio-box p span{
+.radio-box p span {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -1470,7 +1486,7 @@ a.up.about-package{
     font-weight: 400;
 }
 
-.radio-box label{
+.radio-box label {
     font-family: 'Open Sans', sans-serif;
     font-size: 33px;
     line-height: 33px;
@@ -1479,18 +1495,18 @@ a.up.about-package{
     float: left;
 }
 
-.radio-box input[type=radio]{
+.radio-box input[type=radio] {
     opacity: 0;
 }
 
 #uniform-radio1,
-#uniform-radio2{
+#uniform-radio2 {
     float: left;
     margin: 10px 8px 0 0;
 }
 
-#uniform-radio1 span, 
-#uniform-radio2 span{
+#uniform-radio1 span,
+#uniform-radio2 span {
     background-image: url('../img/bg-radio2.png');
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -1500,11 +1516,11 @@ a.up.about-package{
 }
 
 #uniform-radio1 span.checked,
-#uniform-radio2 span.checked{
+#uniform-radio2 span.checked {
     background-position: 0 bottom;
 }
 
-.left-top-description a.buy{
+.left-top-description a.buy {
     width: 143px;
     height: 29px;
     background-color: #d83030;
@@ -1523,26 +1539,26 @@ a.up.about-package{
     margin: 0 0 10px 0;
 }
 
-.left-top-description a.buy:hover{
+.left-top-description a.buy:hover {
     background-color: #b70b0b;
 }
 
-.tabs-box{
+.tabs-box {
     margin: 0 0 30px 0;
 }
 
-.tabs-box .tabs{
+.tabs-box .tabs {
     padding: 0 0 0 30px;
     z-index: 20;
     position: relative;
 }
 
-.tabs li{
+.tabs li {
     float: left;
     margin: 0 1px 0 0;
 }
 
-.tabs li a{
+.tabs li a {
     width: 200px;
     height: 30px;
     display: block;
@@ -1558,12 +1574,12 @@ a.up.about-package{
     padding: 12px 0 0 0;
 }
 
-.tabs li a.current,.tabs li.ui-tabs-active a{
+.tabs li a.current, .tabs li.ui-tabs-active a {
     background-color: #fff;
     color: #007fb1;
 }
 
-.tabs-box .panes{
+.tabs-box .panes {
     background-color: #fff;
     border-radius: 15px;
     position: relative;
@@ -1571,11 +1587,11 @@ a.up.about-package{
     z-index: 10;
     padding: 30px 30px 30px 30px;
     -webkit-box-shadow: 0px 5px 5px 0px rgba(117, 117, 117, 1);
-    -moz-box-shadow:    0px 5px 5px 0px rgba(117, 117, 117, 1);
-    box-shadow:         0px 5px 5px 0px rgba(117, 117, 117, 1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(117, 117, 117, 1);
+    box-shadow: 0px 5px 5px 0px rgba(117, 117, 117, 1);
 }
 
-.panes p.about-season{
+.panes p.about-season {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 16px;
@@ -1583,11 +1599,11 @@ a.up.about-package{
     padding: 0 0 18px 0;
 }
 
-.tabs-box .panes span.text{
+.tabs-box .panes span.text {
     width: 525px;
 }
 
-.tabs-box .panes a.record{
+.tabs-box .panes a.record {
     width: 83px;
     height: 26px;
     border: 1px solid #e8e8e8;
@@ -1598,29 +1614,29 @@ a.up.about-package{
     background-repeat: no-repeat;
 }
 
-.tabs-box .panes a.record:hover{
+.tabs-box .panes a.record:hover {
     background-color: #e5f8ff;
     border-color: #e5f8ff;
     border-radius: 0;
 }
 
-.panes .program ul li ul{
+.panes .program ul li ul {
     padding: 4px 0 0 0;
     float: left;
 }
 
-.panes .program ul li ul li{
+.panes .program ul li ul li {
     margin: 0 0 5px 0;
 }
 
-.panes .program ul li ul li label{
+.panes .program ul li ul li label {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 14px;
     color: #5a5a5a;
 }
 
-.panes .program ul li ul li label span{
+.panes .program ul li ul li label span {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 14px;
@@ -1628,7 +1644,7 @@ a.up.about-package{
     font-weight: 600;
 }
 
-.panes .program ul li ul li input[type=radio]{
+.panes .program ul li ul li input[type=radio] {
     opacity: 0;
 }
 
@@ -1647,12 +1663,12 @@ a.up.about-package{
 #uniform-radio15,
 #uniform-radio16,
 #uniform-radio17,
-#uniform-radio18{
+#uniform-radio18 {
     float: left;
     margin: 2px 5px 0 0;
 }
 
-#uniform-radio3 span, 
+#uniform-radio3 span,
 #uniform-radio4 span,
 #uniform-radio5 span,
 #uniform-radio6 span,
@@ -1667,7 +1683,7 @@ a.up.about-package{
 #uniform-radio15 span,
 #uniform-radio16 span,
 #uniform-radio17 span,
-#uniform-radio18 span{
+#uniform-radio18 span {
     background-image: url('../img/bg-radio2.png');
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -1691,11 +1707,11 @@ a.up.about-package{
 #uniform-radio15 span.checked,
 #uniform-radio16 span.checked,
 #uniform-radio17 span.checked,
-#uniform-radio18 span.checked{
+#uniform-radio18 span.checked {
     background-position: 0 bottom;
 }
 
-.panes a.show-all{
+.panes a.show-all {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 16px;
@@ -1710,19 +1726,19 @@ a.up.about-package{
     margin: 15px auto 0;
 }
 
-.season-row{
+.season-row {
     padding: 0 0 35px 0;
 }
 
-.season-row:last-child{
+.season-row:last-child {
     padding-bottom: 0px;
 }
 
-.season-row ul{
+.season-row ul {
     padding: 0 0 0 10px;
 }
 
-.season-row ul li{
+.season-row ul li {
     width: 153px;
     float: left;
     text-align: center;
@@ -1730,11 +1746,11 @@ a.up.about-package{
     margin: 0 47px 0 0;
 }
 
-.season-row ul li.last{
+.season-row ul li.last {
     margin: 0;
 }
 
-.season-row ul li a.small-poster{
+.season-row ul li a.small-poster {
     width: 153px;
     height: 227px;
     display: block;
@@ -1743,12 +1759,12 @@ a.up.about-package{
     border: 1px solid #B4B4B4;
 }
 
-.season-row ul li a.small-poster img{
+.season-row ul li a.small-poster img {
     position: relative;
     z-index: 10;
 }
 
-.season-row ul li a.small-poster span{
+.season-row ul li a.small-poster span {
     position: absolute;
     left: 0;
     top: 0;
@@ -1764,11 +1780,11 @@ a.up.about-package{
     display: none;
 }
 
-.season-row ul li a.small-poster:hover span{
+.season-row ul li a.small-poster:hover span {
     display: block;
 }
 
-.season-row ul li a.season-name{
+.season-row ul li a.season-name {
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     line-height: 17px;
@@ -1780,21 +1796,21 @@ a.up.about-package{
 8 Style for page About-serial
 ===============================*/
 
-.season-row.serial ul li a.small-poster{
+.season-row.serial ul li a.small-poster {
     border: 1px solid #b4b4b4;
     border-radius: 3px;
 }
 
-.season-row.serial ul li a.small-poster span{
+.season-row.serial ul li a.small-poster span {
     box-shadow: none;
 }
 
-.trailer{
+.trailer {
     background-color: #000;
     margin: 0 -30px;
 }
 
-.trailer .video-box{
+.trailer .video-box {
     background-image: none;
     width: 640px;
     height: 390px;
@@ -1805,11 +1821,11 @@ a.up.about-package{
 9 Style for page About-video
 ===============================*/
 
-.main-content.video{
+.main-content.video {
     padding: 15px 0 30px;
 }
 
-.main-content p.for-video{
+.main-content p.for-video {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     line-height: 20px;
@@ -1817,7 +1833,7 @@ a.up.about-package{
     padding-left: 30px;
 }
 
-.main-content .trailer{
+.main-content .trailer {
     margin: 0;
 }
 
@@ -1825,11 +1841,11 @@ a.up.about-package{
 10 Style for page Contacts
 ===============================*/
 
-.main-content.map{
+.main-content.map {
     padding: 0 0 35px 0;
 }
 
-.main-content.map h1{
+.main-content.map h1 {
     font-size: 35px;
     line-height: 35px;
     font-weight: 300;
@@ -1837,12 +1853,12 @@ a.up.about-package{
     padding: 30px 0;
 }
 
-.main-content.map ul{
+.main-content.map ul {
     padding: 0 0 35px 0;
     text-align: center;
 }
 
-.main-content.map ul li{
+.main-content.map ul li {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     line-height: 25px;
@@ -1851,16 +1867,16 @@ a.up.about-package{
     margin: 0 40px 0 0;
 }
 
-.main-content.map ul li.last{
+.main-content.map ul li.last {
     margin: 0;
 }
 
-.main-content.map ul li img{
+.main-content.map ul li img {
     float: left;
     margin: 0 13px 0 0;
 }
 
-.main-content.map ul li a{
+.main-content.map ul li a {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     line-height: 25px;
@@ -1868,18 +1884,18 @@ a.up.about-package{
     text-decoration: none;
 }
 
-.main-content.map ul li a:hover{
+.main-content.map ul li a:hover {
     text-decoration: underline;
 }
 
-.map-box{
+.map-box {
     width: 1030px;
     height: 445px;
     font-size: 0;
     padding: 0 0 80px 0;
 }
 
-.main-content.map h2{
+.main-content.map h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     line-height: 24px;
@@ -1888,22 +1904,22 @@ a.up.about-package{
     padding: 0 0 20px 30px;
 }
 
-.form-box{
+.form-box {
     padding: 0 30px;
 }
 
-.left-form{
+.left-form {
     float: left;
     width: 470px;
     margin: 0 30px 0 0;
 }
 
-.right-form{
+.right-form {
     float: right;
     width: 470px;
 }
 
-.form-box label{
+.form-box label {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 16px;
@@ -1912,15 +1928,15 @@ a.up.about-package{
     padding: 0 0 12px 0;
 }
 
-.form-box .input-box{
+.form-box .input-box {
     margin: 0 0 15px;
 }
 
-.form-box .input-box.big{
+.form-box .input-box.big {
     margin: 0;
 }
 
-.form-box input[type=text]{
+.form-box input[type=text] {
     width: 448px;
     height: 38px;
     border: 1px solid #e8e8e8;
@@ -1933,7 +1949,7 @@ a.up.about-package{
     color: #007fb1;
 }
 
-.form-box textarea{
+.form-box textarea {
     min-width: 448px;
     max-width: 448px;
     min-height: 102px;
@@ -1949,7 +1965,7 @@ a.up.about-package{
     margin: 0;
 }
 
-.form-box input[type=submit]{
+.form-box input[type=submit] {
     width: 430px;
     height: 45px;
     margin: 15px 0 0 268px;
@@ -1959,28 +1975,28 @@ a.up.about-package{
 11 Style for page Faq
 ===============================*/
 
-.main-content.faq{
+.main-content.faq {
     padding: 0 0 20px 0;
 }
 
-.main-content.faq h1{
+.main-content.faq h1 {
     padding-bottom: 20px;
 }
 
-.questions{
+.questions {
     padding: 0 40px 0 17px;
 }
 
-.questions .other-question{
+.questions .other-question {
     border-bottom: 1px solid #6dcff6;
     margin: 0 0 12px 0;
 }
 
-.questions .other-question.last{
+.questions .other-question.last {
     border: none;
 }
 
-.other-question h3{
+.other-question h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -1992,13 +2008,13 @@ a.up.about-package{
     cursor: pointer;
 }
 
-.other-question h3.active{
+.other-question h3.active {
     background-image: url('../img/bg-h3-accordeon-hover.png');
     background-position: 13px 0;
     background-repeat: no-repeat;
 }
 
-.other-question p{
+.other-question p {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     line-height: 15px;
@@ -2010,31 +2026,31 @@ a.up.about-package{
 12 Style for page Devices
 ===============================*/
 
-.main-content.contacts{
+.main-content.contacts {
     z-index: 5;
     margin: 0 0 30px;
 }
 
-.main-content.contacts h1.devices{
+.main-content.contacts h1.devices {
     padding-bottom: 40px;
 }
 
-.main-content.contacts .widgets-row{
+.main-content.contacts .widgets-row {
     padding: 0 0 20px 0;
     text-align: center;
 }
 
-.main-content.contacts .other-widget{
+.main-content.contacts .other-widget {
     width: 19%;
     margin: -15px 0 -55px;
 }
 
-.main-content.contacts .other-widget a{
+.main-content.contacts .other-widget a {
     color: #007fb1;
     padding: 10px 0 0 0;
 }
 
-.main-content.contacts .other-widget a:hover{
+.main-content.contacts .other-widget a:hover {
     font-size: 20px;
     line-height: 22px;
     color: #fff;
@@ -2042,19 +2058,19 @@ a.up.about-package{
     padding: 20px 0 30px;
 }
 
-.active-pix{
+.active-pix {
     display: none;
 }
 
-.main-content.contacts .other-widget a:hover img{
+.main-content.contacts .other-widget a:hover img {
     display: none;
 }
 
-.main-content.contacts .other-widget a:hover img.active-pix{
+.main-content.contacts .other-widget a:hover img.active-pix {
     display: inline-block;
 }
 
-.main-content.devices .inner-content p.main-p{
+.main-content.devices .inner-content p.main-p {
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     line-height: 24px;
@@ -2063,22 +2079,22 @@ a.up.about-package{
     padding: 10px 0 12px;
 }
 
-.home-tv{
+.home-tv {
     background-color: #fff;
     border-radius: 15px;
     padding: 22px 15px 20px 30px;
 }
 
-.tv-row{
+.tv-row {
     margin: 0 0 20px 0;
 }
 
-.text-block{
+.text-block {
     float: left;
     width: 720px;
 }
 
-.number{
+.number {
     float: left;
     width: 70px;
     height: 70px;
@@ -2087,7 +2103,7 @@ a.up.about-package{
     margin: 0 30px 0 0;
 }
 
-.number p{
+.number p {
     font-family: 'Open Sans', sans-serif;
     font-size: 44px;
     line-height: 44px;
@@ -2097,24 +2113,24 @@ a.up.about-package{
     padding: 12px 0 0 0;
 }
 
-.only-text{
+.only-text {
     width: 620px;
     float: left;
 }
 
-.only-text p{
+.only-text p {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     line-height: 17px;
     color: #000;
 }
 
-.screen{
+.screen {
     width: 213px;
     float: right;
 }
 
-.pix-box{
+.pix-box {
     border: 1px solid #00aeef;
     border-radius: 3px;
     width: 213px;
@@ -2124,7 +2140,7 @@ a.up.about-package{
     vertical-align: middle;
 }
 
-.pix-box img{
+.pix-box img {
     max-width: 213px;
     max-height: 213px;
 }
@@ -2133,7 +2149,7 @@ a.up.about-package{
 13 Style for page Myrecords-order
 ===============================*/
 
-.main-content h1.order{
+.main-content h1.order {
     font-size: 20px;
     line-height: 20px;
     padding: 17px 0 0 30px;
@@ -2141,13 +2157,13 @@ a.up.about-package{
 }
 
 .sort,
-.order{
+.order {
     float: right;
     margin: 0 30px 0 0;
     padding: 14px 0;
 }
 
-.sort p{
+.sort p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 14px;
@@ -2156,8 +2172,8 @@ a.up.about-package{
     padding: 5px 10px 0 0;
 }
 
-.sort ul, 
-.order ul{
+.sort ul,
+.order ul {
     padding: 0;
     float: left;
     border: 1px solid #007fb1;
@@ -2165,20 +2181,20 @@ a.up.about-package{
     background-color: #f7f5f2;
 }
 
-.sort ul li, 
-.order ul li{
+.sort ul li,
+.order ul li {
     float: left;
     width: 120px;
     height: 23px;
     text-align: center;
 }
 
-.order ul li{
+.order ul li {
     width: 140px;
 }
 
 .sort ul li a,
-.order ul li a{
+.order ul li a {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     line-height: 12px;
@@ -2192,40 +2208,40 @@ a.up.about-package{
 }
 
 .sort ul li a:hover,
-.order ul li a:hover{
+.order ul li a:hover {
     background-color: #e6f8ff;
 }
 
 .sort ul li a.active,
-.order ul li a.active{
+.order ul li a.active {
     background-color: #007fb1;
     color: #fff;
 }
 
-.order-box{
+.order-box {
     background-color: #fff;
     border-radius: 15px;
     padding: 25px 30px;
 }
 
-.order-row{
+.order-row {
     border-bottom: 1px solid #00aeef;
     padding: 0 0 25px 0;
     margin: 0 0 25px 0;
 }
 
-.order-row.last{
+.order-row.last {
     border: none;
     margin: 0;
 }
 
-.order-row .global-pix{
+.order-row .global-pix {
     float: left;
     width: 198px;
     margin: 0 12px 0 0;
 }
 
-.pix-box.order{
+.pix-box.order {
     width: 198px;
     height: 108px;
     text-align: center;
@@ -2238,18 +2254,18 @@ a.up.about-package{
     border-radius: 4px;
 }
 
-.pix-box.order img{
+.pix-box.order img {
     max-width: 198px;
     max-height: 108px;
     border-radius: 3px;
 }
 
-.about-program{
+.about-program {
     width: 300px;
     float: left;
 }
 
-.about-program h5{
+.about-program h5 {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     line-height: 22px;
@@ -2258,14 +2274,14 @@ a.up.about-package{
     padding: 0 0 18px 0;
 }
 
-.channel{
+.channel {
     float: left;
     width: 140px;
     margin: 0 10px 0 0;
 }
 
 .channel p,
-.date p{
+.date p {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -2274,7 +2290,7 @@ a.up.about-package{
     padding: 0 0 5px 0;
 }
 
-.channel a{
+.channel a {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -2290,15 +2306,15 @@ a.up.about-package{
     border: 2px solid transparent;
 }
 
-.channel a:hover{
+.channel a:hover {
     border: 2px solid #000;
 }
 
-.date{
+.date {
     float: left;
 }
 
-.date p.time{
+.date p.time {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -2309,7 +2325,7 @@ a.up.about-package{
     padding: 3px 10px 5px 10px;
 }
 
-.order-row a.delete{
+.order-row a.delete {
     background-color: #fff;
     border: 2px solid #ff5e5e;
     border-radius: 3px;
@@ -2330,7 +2346,7 @@ a.up.about-package{
     margin: 30px 30px 0 0;
 }
 
-.order-row a.delete:hover{
+.order-row a.delete:hover {
     background-color: #ededed;
 }
 
@@ -2338,17 +2354,17 @@ a.up.about-package{
 14 Style for page My-records
 ===============================*/
 
-.main-content h1.my-record{
+.main-content h1.my-record {
     float: left;
     padding: 10px 0 0 30px;
 }
 
-.watch{
+.watch {
     float: right;
     margin: 15px 25px 0 13px;
 }
 
-a.liked{
+a.liked {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     line-height: 13px;
@@ -2365,11 +2381,11 @@ a.liked{
     margin: 0 0 25px 5px;
 }
 
-a.liked.active{
+a.liked.active {
     background-position: 0 -27px;
 }
 
-a.watch-link{
+a.watch-link {
     width: 88px;
     height: 31px;
     display: block;
@@ -2387,15 +2403,15 @@ a.watch-link{
     background-repeat: no-repeat;
 }
 
-a.watch-link:hover{
+a.watch-link:hover {
     background-color: #007fb1;
 }
 
-.storage-life{
+.storage-life {
     float: right;
 }
 
-.storage-life p{
+.storage-life p {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -2404,7 +2420,7 @@ a.watch-link:hover{
     padding: 0 0 9px;
 }
 
-.storage-life p span{
+.storage-life p span {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -2412,7 +2428,7 @@ a.watch-link:hover{
     font-weight: 700;
 }
 
-.storage-life p span.bg-color{
+.storage-life p span.bg-color {
     background-color: #d5e3e9;
     border-radius: 3px;
     padding-left: 5px;
@@ -2420,7 +2436,7 @@ a.watch-link:hover{
     margin: 0 0 0 8px;
 }
 
-.storage-life a{
+.storage-life a {
     width: 228px;
     height: 31px;
     display: block;
@@ -2439,7 +2455,7 @@ a.watch-link:hover{
     margin: 12px 0 0 0;
 }
 
-.storage-life a:hover{
+.storage-life a:hover {
     background-color: #0f9668;
 }
 
@@ -2447,7 +2463,7 @@ a.watch-link:hover{
 15 Style for page My-channels
 ===============================*/
 
-.about-program p.pay{
+.about-program p.pay {
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     line-height: 17px;
@@ -2455,7 +2471,7 @@ a.watch-link:hover{
     font-weight: 300;
 }
 
-.about-program p.pay span{
+.about-program p.pay span {
     font-family: 'Open Sans', sans-serif;
     font-size: 32px;
     line-height: 32px;
@@ -2463,7 +2479,7 @@ a.watch-link:hover{
     font-weight: 300;
 }
 
-.date.mychannels p.default{
+.date.mychannels p.default {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -2472,7 +2488,7 @@ a.watch-link:hover{
     padding: 0 0 5px 0;
 }
 
-.date.mychannels p{
+.date.mychannels p {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -2483,15 +2499,15 @@ a.watch-link:hover{
     padding-right: 5px;
 }
 
-.date.mychannels p.serial{
+.date.mychannels p.serial {
     background-color: #2d7492;
 }
 
-.date.mychannels p.music{
+.date.mychannels p.music {
     background-color: #fe3a90;
 }
 
-.date.mychannels p.films{
+.date.mychannels p.films {
     background-color: #f3a43c;
 }
 
@@ -2499,15 +2515,15 @@ a.watch-link:hover{
 16 Style for page Favourites-channels
 ===================================*/
 
-.panes.favourite{
+.panes.favourite {
     padding: 0;
 }
 
-.right-my-film a.delete{
+.right-my-film a.delete {
     margin: 0;
 }
 
-.pane3 .order-row a.basket{
+.pane3 .order-row a.basket {
     background-color: #ebebeb;
     display: block;
     background-image: url('../img/korzina.png');
@@ -2521,15 +2537,15 @@ a.watch-link:hover{
     border-radius: 5px 0 0 5px;
 }
 
-.pane3 .order-row a.basket:hover{
+.pane3 .order-row a.basket:hover {
     background-color: #b7b7b7;
 }
 
-.pane4{
+.pane4 {
     padding: 25px 30px 0 30px;
 }
 
-.button-block .storage-life a{
+.button-block .storage-life a {
     padding-left: 50px;
     width: 228px;
 }
@@ -2538,27 +2554,27 @@ a.watch-link:hover{
 17 Style for page Catalog-video
 ===============================*/
 
-.main-content.catalog{
-    box-shadow: none;   
+.main-content.catalog {
+    box-shadow: none;
 }
 
-.main-content.catalog .inner-content{
+.main-content.catalog .inner-content {
     padding-bottom: 5px;
     position: relative;
 }
 
-.main-content.catalog .order-box{
+.main-content.catalog .order-box {
     width: 753px;
     float: right;
     z-index: 50;
     padding: 30px 40px;
     position: relative;
     -webkit-box-shadow: 0px 5px 5px 0px rgba(117, 117, 117, 1);
-    -moz-box-shadow:    0px 5px 5px 0px rgba(117, 117, 117, 1);
-    box-shadow:         0px 5px 5px 0px rgba(117, 117, 117, 1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(117, 117, 117, 1);
+    box-shadow: 0px 5px 5px 0px rgba(117, 117, 117, 1);
 }
 
-.left-menu{
+.left-menu {
     float: left;
     width: 197px;
     z-index: 10;
@@ -2566,15 +2582,15 @@ a.watch-link:hover{
     margin-top: 15px;
 }
 
-.left-menu ul{
+.left-menu ul {
     padding: 0;
 }
 
-.left-menu ul li{
+.left-menu ul li {
     margin: 0 0 1px 0;
 }
 
-.left-menu ul li a{
+.left-menu ul li a {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -2589,7 +2605,7 @@ a.watch-link:hover{
     padding: 0 0 0 30px;
 }
 
-.left-menu ul li a:hover{
+.left-menu ul li a:hover {
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     line-height: 17px;
@@ -2598,51 +2614,51 @@ a.watch-link:hover{
     background-color: #fff;
 }
 
-.catalog-row{
+.catalog-row {
     margin: 0 0 40px 0;
 }
 
-.catalog-row.last{
+.catalog-row.last {
     margin: 0;
 }
 
-.global-pix.catalog{
+.global-pix.catalog {
     float: left;
     width: 153px;
     position: relative;
     margin: 0 45px 45px 0;
 }
 
-.global-pix.catalog.column-4{
+.global-pix.catalog.column-4 {
     margin: 0;
 }
 
-.global-pix.catalog:hover .big-absolute{
+.global-pix.catalog:hover .big-absolute {
     display: block;
 }
 
-.global-pix.catalog .pix-box{
+.global-pix.catalog .pix-box {
     width: 153px;
     height: 227px;
     border: 3px solid transparent;
     border-radius: 5px;
 }
 
-.global-pix.catalog .pix-box a{
+.global-pix.catalog .pix-box a {
     display: block;
     font-size: 0;
 }
 
-.global-pix.catalog .pix-box img{
+.global-pix.catalog .pix-box img {
     max-width: 153px;
     max-height: 227px;
 }
 
-.global-pix.catalog .pix-box:hover{
+.global-pix.catalog .pix-box:hover {
     border-color: #00aeef;
 }
 
-.descriptions{
+.descriptions {
     width: 272px;
     border: 1px solid #006a93;
     border-radius: 3px;
@@ -2650,18 +2666,18 @@ a.watch-link:hover{
     position: relative;
 }
 
-.title{
+.title {
     border-bottom: 1px solid #00aeef;
     padding: 0 0 6px 0;
     position: relative;
 }
 
-.left-title{
+.left-title {
     width: 199px;
     float: left;
 }
 
-.left-title h6{
+.left-title h6 {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 19px;
@@ -2670,7 +2686,7 @@ a.watch-link:hover{
     padding: 5px 0 0 8px;
 }
 
-.left-title p{
+.left-title p {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 19px;
@@ -2679,13 +2695,13 @@ a.watch-link:hover{
     padding: 0 0 0 8px;
 }
 
-.right-title{
+.right-title {
     float: right;
     position: relative;
     margin: 6px 4px 0 0;
 }
 
-.right-title a{
+.right-title a {
     display: block;
     width: 62px;
     height: 56px;
@@ -2695,7 +2711,7 @@ a.watch-link:hover{
     padding: 6px 0 0 0;
 }
 
-.right-title a p{
+.right-title a p {
     font-family: 'Open Sans', sans-serif;
     font-size: 9px;
     line-height: 9px;
@@ -2704,7 +2720,7 @@ a.watch-link:hover{
     padding: 0 0 5px 5px;
 }
 
-.right-title a p span{
+.right-title a p span {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -2712,7 +2728,7 @@ a.watch-link:hover{
     font-weight: 300;
 }
 
-.other-rating{
+.other-rating {
     width: 103px;
     background-color: #fff;
     border-radius: 3px;
@@ -2723,11 +2739,11 @@ a.watch-link:hover{
     position: relative;
 }
 
-.other-rating img.first{
+.other-rating img.first {
     margin: 0 0 4px 0;
 }
 
-.other-rating span{
+.other-rating span {
     background-image: url('../img/small-arrow.png');
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -2739,25 +2755,25 @@ a.watch-link:hover{
     height: 10px;
 }
 
-.absolute{
+.absolute {
     position: absolute;
     left: 60px;
     top: -1px;
     display: none;
 }
 
-.right-title:hover .absolute{
+.right-title:hover .absolute {
     display: block;
 }
 
-.small-text-box{
+.small-text-box {
     border-top: 1px solid #006a90;
     border-bottom: 1px solid #00aeef;
     padding: 4px 0 5px 0;
     background-color: #2b95be;
 }
 
-.small-text-box p{
+.small-text-box p {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     line-height: 15px;
@@ -2766,7 +2782,7 @@ a.watch-link:hover{
     text-align: justify;
 }
 
-.small-text-box a{
+.small-text-box a {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     line-height: 12px;
@@ -2782,13 +2798,13 @@ a.watch-link:hover{
     padding: 1px 0 0 0;
 }
 
-.radio-button-box{
+.radio-button-box {
     border-top: 1px solid #006a93;
     border-bottom: 1px solid #00aeef;
     padding: 5px 0 0 0;
 }
 
-.radio-button-box p{
+.radio-button-box p {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -2797,7 +2813,7 @@ a.watch-link:hover{
     padding: 0 0 5px 10px;
 }
 
-.radio-button-box p span{
+.radio-button-box p span {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -2805,17 +2821,17 @@ a.watch-link:hover{
     font-weight: 400;
 }
 
-.radio-button-box .input-box{
+.radio-button-box .input-box {
     width: 130px;
     float: left;
     margin: 0 10px 0 0;
 }
 
-.radio-button-box .input-box.last{
+.radio-button-box .input-box.last {
     margin: 0;
 }
 
-.radio-button-box label{
+.radio-button-box label {
     font-family: 'Open Sans', sans-serif;
     font-size: 33px;
     line-height: 33px;
@@ -2824,7 +2840,7 @@ a.watch-link:hover{
     float: left;
 }
 
-.radio-button-box input[type=radio]{
+.radio-button-box input[type=radio] {
     opacity: 0;
 }
 
@@ -2851,7 +2867,7 @@ a.watch-link:hover{
 #uniform-radio39 span,
 #uniform-radio40 span,
 #uniform-radio41 span,
-#uniform-radio42 span{
+#uniform-radio42 span {
     width: 15px;
     height: 15px;
     display: block;
@@ -2885,16 +2901,16 @@ a.watch-link:hover{
 #uniform-radio39 span.checked,
 #uniform-radio40 span.checked,
 #uniform-radio41 span.checked,
-#uniform-radio42 span.checked{
+#uniform-radio42 span.checked {
     background-position: 0 bottom;
 }
 
-.button-box{
+.button-box {
     border-top: 1px solid #006a90;
     padding: 7px 0 10px 0;
 }
 
-.button-box a{
+.button-box a {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -2909,7 +2925,7 @@ a.watch-link:hover{
     padding: 15px 0 0 0;
 }
 
-.button-box a.trailers{
+.button-box a.trailers {
     background-color: #00aeef;
     background-image: url('../img/bg-trailer.png');
     background-position: 12px 13px;
@@ -2919,11 +2935,11 @@ a.watch-link:hover{
     margin: 0 9px 0 12px;
 }
 
-.button-box a.trailers:hover{
+.button-box a.trailers:hover {
     background-color: #248DC1;
 }
 
-.button-box a.buy{
+.button-box a.buy {
     background-color: #b70b0b;
     background-image: url('../img/basket.png');
     background-position: 14px 13px;
@@ -2932,11 +2948,11 @@ a.watch-link:hover{
     width: 69px
 }
 
-.button-box a.buy:hover{
+.button-box a.buy:hover {
     background-color: #d83030;
 }
 
-.blue-arrow{
+.blue-arrow {
     position: absolute;
     left: -15px;
     top: 170px;
@@ -2948,7 +2964,7 @@ a.watch-link:hover{
     background-repeat: no-repeat;
 }
 
-.big-absolute{
+.big-absolute {
     position: absolute;
     left: 155px;
     top: -65px;
@@ -2957,14 +2973,14 @@ a.watch-link:hover{
     z-index: 100;
 }
 
-.column-3 .big-absolute, .column-4 .big-absolute{
+.column-3 .big-absolute, .column-4 .big-absolute {
     left: inherit;
     right: 155px;
     padding-right: 15px;
     padding-left: 0px;
 }
 
-.column-3 .blue-arrow, .column-4 .blue-arrow{
+.column-3 .blue-arrow, .column-4 .blue-arrow {
     left: inherit;
     right: -15px;
     background-image: url('../img/blue-arrow2.png');
@@ -2974,11 +2990,11 @@ a.watch-link:hover{
 18 Style for page My-channels-packs
 =================================*/
 
-.pack-box-row{
+.pack-box-row {
     padding: 0 0 20px 0;
 }
 
-.pack-box{
+.pack-box {
     background-color: #2e3133;
     width: 300px;
     float: left;
@@ -2988,19 +3004,19 @@ a.watch-link:hover{
     margin: 0 35px 0 0;
 }
 
-.pack-box.last{
+.pack-box.last {
     margin: 0;
 }
 
-.pack-box.yellow{
+.pack-box.yellow {
     border-bottom-color: #f7a22f;
 }
 
-.top-pack{
+.top-pack {
     position: relative;
 }
 
-.top-pack .channels{
+.top-pack .channels {
     background-image: url('../img/bg-channels.png');
     background-position: 0 0;
     background-repeat: repeat;
@@ -3010,7 +3026,7 @@ a.watch-link:hover{
     width: 300px;
 }
 
-.top-pack .channels p{
+.top-pack .channels p {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     line-height: 12px;
@@ -3019,7 +3035,7 @@ a.watch-link:hover{
     padding: 6px 0 7px 10px;
 }
 
-.top-pack .channels p span{
+.top-pack .channels p span {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     line-height: 12px;
@@ -3029,28 +3045,28 @@ a.watch-link:hover{
     padding: 0 2px;
 }
 
-.top-pack .channels p span.yellow{
+.top-pack .channels p span.yellow {
     background-color: #f7a22f;
 }
 
-.bottom-pack{
+.bottom-pack {
     padding: 0 9px;
 }
 
-.pack-title{
+.pack-title {
     border-bottom: 1px solid #5e5e5e;
     padding: 7px 0 0 0;
 }
 
-.pack-price{
+.pack-price {
     border-bottom: 1px solid #5e5e5e;
 }
 
-.pack-title h5{
+.pack-title h5 {
     padding: 0 0 10px 2px;
 }
 
-.pack-title h5 a{
+.pack-title h5 a {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -3060,11 +3076,11 @@ a.watch-link:hover{
     text-decoration: none;
 }
 
-.pack-title h5 a:hover{
+.pack-title h5 a:hover {
     text-decoration: underline;
 }
 
-.pack-price p{
+.pack-price p {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -3073,7 +3089,7 @@ a.watch-link:hover{
     padding: 0 0 5px 0;
 }
 
-.pack-price p span{
+.pack-price p span {
     font-family: 'Open Sans', sans-serif;
     font-size: 33px;
     line-height: 33px;
@@ -3081,11 +3097,11 @@ a.watch-link:hover{
     font-weight: 300;
 }
 
-.pack-text{
+.pack-text {
     padding: 7px 0 3px 0;
 }
 
-.pack-text p{
+.pack-text p {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -3094,7 +3110,7 @@ a.watch-link:hover{
     padding: 0 0 8px 0;
 }
 
-.pack-text p span{
+.pack-text p span {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 15px;
@@ -3102,14 +3118,14 @@ a.watch-link:hover{
     font-weight: 700;
 }
 
-.pack-text p span.yellow{
+.pack-text p span.yellow {
     background-color: #f7a22f;
     border-radius: 3px;
     padding: 0 5px;
     margin: 0 0 0 7px;
 }
 
-.button-block a{
+.button-block a {
     width: 278px;
     height: 32px;
     display: block;
@@ -3124,7 +3140,7 @@ a.watch-link:hover{
     padding: 13px 0 0 0;
 }
 
-.button-block a.subscribe-film{
+.button-block a.subscribe-film {
     background-color: #26a97c;
     background-image: url('../img/plus-icon.png');
     background-position: 70px 12px;
@@ -3133,11 +3149,11 @@ a.watch-link:hover{
     width: 178px;
 }
 
-.button-block a.subscribe-film:hover{
+.button-block a.subscribe-film:hover {
     background-color: #0f9668;
 }
 
-.button-block a.detail{
+.button-block a.detail {
     background-color: #00aeef;
     background-image: url('../img/i-icon.png');
     background-position: 75px 12px;
@@ -3146,37 +3162,37 @@ a.watch-link:hover{
     width: 170px;
 }
 
-.button-block a.detail:hover{
+.button-block a.detail:hover {
     background-color: #248dc1;
 }
 
-.pack-box.green{
+.pack-box.green {
     border-bottom-color: #45cc58;
 }
 
-.pack-text p span.green{
+.pack-text p span.green {
     background-color: #45cc58;
     border-radius: 3px;
     padding: 0 5px;
     margin: 0 0 0 7px;
 }
 
-.top-pack .channels p span.green{
+.top-pack .channels p span.green {
     background-color: #45cc58;
 }
 
-.pack-box.pink{
+.pack-box.pink {
     border-bottom-color: #ff3e95;
 }
 
-.pack-text p span.pink{
+.pack-text p span.pink {
     background-color: #ff3e95;
     border-radius: 3px;
     padding: 0 5px;
     margin: 0 0 0 7px;
 }
 
-.top-pack .channels p span.pink{
+.top-pack .channels p span.pink {
     background-color: #ff3e95;
 }
 
@@ -3184,33 +3200,33 @@ a.watch-link:hover{
 19 Style for page My-films
 =================================*/
 
-.my-films{
+.my-films {
     width: 450px;
     float: left;
     margin: 0 50px 0 0;
 }
 
-.my-films.last{
+.my-films.last {
     margin: 0;
 }
 
-.my-films .global-pix{
+.my-films .global-pix {
     float: left;
     width: 153px;
 }
 
-.my-films .global-pix .pix-box{
+.my-films .global-pix .pix-box {
     border: none;
     width: 153px;
     height: 227px;
 }
 
-.my-films .global-pix .pix-box img{
+.my-films .global-pix .pix-box img {
     max-width: 153px;
     max-height: 227px;
 }
 
-.my-films .global-pix a{
+.my-films .global-pix a {
     display: block;
     width: 90px;
     font-family: 'Open Sans', sans-serif;
@@ -3226,18 +3242,18 @@ a.watch-link:hover{
     background-repeat: no-repeat;
 }
 
-.right-my-film{
+.right-my-film {
     float: right;
     width: 278px;
 }
 
-.my-film-title{
+.my-film-title {
     border-bottom: 1px solid #399ec3;
     padding: 0 0 7px 0;
     margin: 0 0 7px 0;
 }
 
-.my-film-title p{
+.my-film-title p {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 19px;
@@ -3246,7 +3262,7 @@ a.watch-link:hover{
     padding: 0;
 }
 
-.my-film-title p span{
+.my-film-title p span {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 19px;
@@ -3254,12 +3270,12 @@ a.watch-link:hover{
     font-weight: 700;
 }
 
-.pay-for-month{
+.pay-for-month {
     border-bottom: 1px solid #399ec3;
     margin: 0 0 7px 0;
 }
 
-.pay-for-month p{
+.pay-for-month p {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 19px;
@@ -3268,7 +3284,7 @@ a.watch-link:hover{
     padding: 0 0 3px 0;
 }
 
-.pay-for-month p span{
+.pay-for-month p span {
     font-family: 'Open Sans', sans-serif;
     font-size: 33px;
     line-height: 19px;
@@ -3276,23 +3292,23 @@ a.watch-link:hover{
     font-weight: 300;
 }
 
-.my-films .storage-life{
+.my-films .storage-life {
     margin: 0 0 11px 0;
 }
 
-.my-films .storage-life a{
+.my-films .storage-life a {
     margin: 0;
     padding-left: 85px;
     width: 193px;
     background-position: 57px 12px;
 }
 
-.right-my-film a.watch-link{
+.right-my-film a.watch-link {
     float: left;
     margin: 0 0px 0 0px;
 }
 
-.right-my-film a.buy-film{
+.right-my-film a.buy-film {
     width: 78px;
     height: 31px;
     display: block;
@@ -3311,29 +3327,29 @@ a.watch-link:hover{
     background-repeat: no-repeat;
 }
 
-.right-my-film a.buy-film:hover{
+.right-my-film a.buy-film:hover {
     background-color: #D83030;
 }
 
 /**/
 
-.slider .flexslider{
+.slider .flexslider {
     width: 960px;
     margin-left: 6px;
 }
 
-#wrapper{
+#wrapper {
     overflow: hidden;
     min-height: 100%;
     min-width: 988px;
 }
 
-.calendar{
+.calendar {
     cursor: pointer;
     position: relative;
 }
 
-#container .ui-datepicker{
+#container .ui-datepicker {
     position: absolute;
     left: -115px;
     top: 54px;
@@ -3341,68 +3357,68 @@ a.watch-link:hover{
     display: none;
 }
 
-html, body{
+html, body {
     height: 100%;
 }
 
-.footer-block{
+.footer-block {
     height: 60px;
 }
 
-#footer{
+#footer {
     margin-top: -60px;
     min-width: 980px;
     padding: 0 4px;
 }
 
-.flexslider2{
+.flexslider2 {
     width: 940px;
 }
 
-.flexslider2 .flex-viewport li{
+.flexslider2 .flex-viewport li {
     width: 300px;
     margin-right: 20px;
 }
 
-.order-row{
+.order-row {
     position: relative;
 }
 
-#wrapper .ui-box .ui-widget-header{
+#wrapper .ui-box .ui-widget-header {
     background-image: none;
     border: none;
     background-color: transparent;
 }
 
-#wrapper .ui-box .ui-icon-circle-triangle-w{
+#wrapper .ui-box .ui-icon-circle-triangle-w {
     background-image: url('../img/calendar-prev-next.png');
     background-position: 0 0;
     width: 9px;
     height: 17px;
 }
 
-#wrapper .ui-box .ui-icon-circle-triangle-e{
+#wrapper .ui-box .ui-icon-circle-triangle-e {
     background-image: url('../img/calendar-prev-next.png');
     background-position: right 0;
     width: 9px;
     height: 17px;
 }
 
-#wrapper .ui-box .ui-datepicker-prev{
+#wrapper .ui-box .ui-datepicker-prev {
     left: 22px;
     top: 12px;
 }
 
-#wrapper .ui-box .ui-datepicker-next{
+#wrapper .ui-box .ui-datepicker-next {
     right: 8px;
     top: 12px;
 }
 
-#wrapper .ui-box .ui-datepicker{
+#wrapper .ui-box .ui-datepicker {
     padding: 10px 25px 25px 25px;
 }
 
-#wrapper .ui-box .ui-datepicker td{
+#wrapper .ui-box .ui-datepicker td {
     border-bottom: 1px solid #D3D3D3;
     border-left: 1px solid #D3D3D3;
     padding: 0px;
@@ -3411,17 +3427,17 @@ html, body{
     height: 30px;
 }
 
-#wrapper .ui-box .ui-datepicker td.ui-datepicker-current-day{
+#wrapper .ui-box .ui-datepicker td.ui-datepicker-current-day {
     background-color: #007fb1;
     opacity: 1;
 }
 
-#wrapper .ui-box .ui-datepicker tbody{
+#wrapper .ui-box .ui-datepicker tbody {
     border-top: 1px solid #D3D3D3;
     border-right: 1px solid #D3D3D3;
 }
 
-#wrapper .ui-box .ui-datepicker td a{
+#wrapper .ui-box .ui-datepicker td a {
     display: block;
     width: 38px;
     height: 30px;
@@ -3433,13 +3449,13 @@ html, body{
     font-weight: bold;
 }
 
-#wrapper .ui-box .ui-datepicker td.ui-datepicker-current-day, #wrapper .ui-box .ui-datepicker td.ui-datepicker-current-day a{
+#wrapper .ui-box .ui-datepicker td.ui-datepicker-current-day, #wrapper .ui-box .ui-datepicker td.ui-datepicker-current-day a {
     background: #007fb1 !important;
     opacity: 1 !important;
     color: #fff;
 }
 
-#wrapper .favorites{
+#wrapper .favorites {
     display: block;
     width: 26px;
     height: 26px;
@@ -3452,10 +3468,10 @@ html, body{
     top: 10px;
 }
 
-#wrapper .favorites:hover{
+#wrapper .favorites:hover {
     background-position: right 0;
 }
 
-#wrapper .favorites.active{
+#wrapper .favorites.active {
     background-position: right 0;
 }
