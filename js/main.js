@@ -39,7 +39,7 @@ $(document).ready(function () {
     });
 
     //$("ul.tabs").tabs("div.panes > div");
-    $(".tabs-box").tabs();
+//    $(".tabs-box").tabs();
 
     $('.checkbox').uniform();
     $('.radio').uniform();
