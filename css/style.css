@@ -586,7 +586,7 @@ a.up{
     background-position: 0 0;
     background-repeat: no-repeat;
     position: fixed;
-    right: 80px;
+    right: 1%;
     bottom: 70px;
     cursor: pointer;
     z-index: 999;
@@ -1071,8 +1071,7 @@ body.other-bg #container{
 }
 
 .other-channel .text-box{
-    float: left;
-    width: 745px;
+    margin: 0 0 0 225px;
 }
 
 .other-channel .text-box h6{
@@ -1146,9 +1145,7 @@ a.up.about-package{
 }
 
 .text-box .description{
-    width: 670px;
-    float: left;
-    padding: 0 0 20px 0;
+    padding: 0 20px 20px 0;
 }
 
 .text-box .description h5{
@@ -1380,13 +1377,11 @@ a.up.about-package{
 }
 
 .about-film{
-    width: 670px;
-    float: left;
+    margin: 0 0 0 300px;
 }
 
 .right-top-description{
-    float: left;
-    width: 670px;
+
 }
 
 .right-top-description ul{
@@ -1397,6 +1392,7 @@ a.up.about-package{
     padding: 0 0 6px 0;
     margin: 0 0 6px 0;
     border-bottom: 1px dashed #000;
+    overflow: hidden;
 }
 
 .right-top-description ul li span.right{
@@ -1404,8 +1400,6 @@ a.up.about-package{
     font-size: 12px;
     line-height: 12px;
     color: #000;
-    float: left;
-    width: 575px;
 }
 
 .right-top-description ul li span.left{
@@ -2245,8 +2239,8 @@ a.up.about-package{
 }
 
 .about-program{
-    width: 300px;
     float: left;
+    max-width: 280px;
 }
 
 .about-program h5{
@@ -2261,7 +2255,7 @@ a.up.about-package{
 .channel{
     float: left;
     width: 140px;
-    margin: 0 10px 0 0;
+    margin: 0 0px 0 0;
 }
 
 .channel p,
@@ -2295,7 +2289,7 @@ a.up.about-package{
 }
 
 .date{
-    float: left;
+    float: right;
 }
 
 .date p.time{
@@ -2421,7 +2415,6 @@ a.watch-link:hover{
 }
 
 .storage-life a{
-    width: 228px;
     height: 31px;
     display: block;
     background-color: #26a97c;
@@ -2432,11 +2425,17 @@ a.watch-link:hover{
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 14px 0 0 50px;
-    background-image: url('../img/hourglass.png');
-    background-position: 23px 12px;
-    background-repeat: no-repeat;
+    padding: 10px 0 0 0px;
     margin: 12px 0 0 0;
+    text-align: center;
+}
+
+.storage-life a span{
+    background-image: url('../img/hourglass.png');
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    padding: 4px 0 1px 28px;
+    display: inline-block;
 }
 
 .storage-life a:hover{
@@ -2530,8 +2529,7 @@ a.watch-link:hover{
 }
 
 .button-block .storage-life a{
-    padding-left: 50px;
-    width: 228px;
+    text-align: center;
 }
 
 /*===============================
@@ -2976,16 +2974,28 @@ a.watch-link:hover{
 
 .pack-box-row{
     padding: 0 0 20px 0;
+    text-align: justify;
 }
+
+.pack-box-row:after {
+                        width: 100%;
+                        height: 0;
+                        visibility: hidden;
+                        overflow: hidden;
+                        content: '';
+                        display: inline-block;
+
+        }
 
 .pack-box{
     background-color: #2e3133;
     width: 300px;
-    float: left;
+    display: inline-block;
+    vertical-align: top;
     border-bottom: 7px solid transparent;
     border-radius: 5px;
     position: relative;
-    margin: 0 35px 0 0;
+    margin: 0 0px 0 0;
 }
 
 .pack-box.last{
@@ -3126,11 +3136,17 @@ a.watch-link:hover{
 
 .button-block a.subscribe-film{
     background-color: #26a97c;
+    text-align: center;
+    padding: 10px 0 0 0px;
+}
+
+.button-block a.subscribe-film span{
     background-image: url('../img/plus-icon.png');
-    background-position: 70px 12px;
+    background-position: 0 center;
     background-repeat: no-repeat;
-    padding: 13px 0 0 100px;
-    width: 178px;
+    padding: 2px 0 0 30px;
+    display: inline-block;
+    line-height: 20px;
 }
 
 .button-block a.subscribe-film:hover{
@@ -3139,12 +3155,20 @@ a.watch-link:hover{
 
 .button-block a.detail{
     background-color: #00aeef;
-    background-image: url('../img/i-icon.png');
-    background-position: 75px 12px;
-    background-repeat: no-repeat;
-    padding: 13px 0 0 108px;
-    width: 170px;
+    background-image: none;
+    padding: 13px 0 0 0px;
+    text-align: center;
 }
+
+.button-block a.detail span{
+    background-image: url('../img/i-icon.png');
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    padding: 2px 0 0 30px;
+    display: inline-block;
+    line-height: 20px;
+}
+
 
 .button-block a.detail:hover{
     background-color: #248dc1;
@@ -3187,11 +3211,12 @@ a.watch-link:hover{
 .my-films{
     width: 450px;
     float: left;
-    margin: 0 50px 0 0;
+    margin: 0 0px 0 0;
 }
 
 .my-films.last{
     margin: 0;
+    float: right;
 }
 
 .my-films .global-pix{
@@ -3343,6 +3368,7 @@ a.watch-link:hover{
 
 html, body{
     height: 100%;
+    min-width: 990px;
 }
 
 .footer-block{
@@ -3454,4 +3480,12 @@ html, body{
 
 #wrapper .favorites:hover{
     background-position: right 0;
+}
+
+@media screen and (max-width: 1040px) {
+
+.order-box {
+    padding: 25px 20px;
+}
+
 }
