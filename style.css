@@ -1,0 +1,615 @@
+@import url("fonts.css");
+
+/*==============================
+1 Reset
+===============================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+        font-family: arial;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+    outline: none;
+    font-family: arial;
+}
+
+/* Clearfix */
+.clearfix { display: inline-block; }
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0
+}
+
+
+.clearfix { display:block; }
+
+/*===================================
+1.1. Defaults,  h1, h2, h3, h4, h5, a
+===================================*/
+h1 {
+	font-size: 24px;
+	line-height: 30px;
+	color: #0898d2;
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 19px;
+	line-height: 24px;
+	color: #0898d2;
+	text-decoration: none;
+}
+
+h3 {
+	color: #0898d2;
+}
+
+h4, h5, h6 {
+
+}
+
+a, a:link, a:visited {
+	color: #545454;
+	font-size: 12px;
+}
+
+ul, ol {
+	padding: 0px 0px 15px 15px;
+	margin: 0px;
+}
+
+ol {
+	padding-left: 25px;
+}
+p{
+	padding: 0px 0px 18px 0px;
+}
+
+a:hover, a:visited:hover { text-decoration: none; }
+
+.floatLeft { float: left; }
+
+.floatRight { float: right; }
+
+.alignCenter { text-align: center; display: block; }
+
+.bg-none {
+	background: none !important;
+}
+
+.overflow-none{
+    overflow: inherit !important;
+}
+
+.italic{
+    font-style: italic;
+}
+
+/*==============================
+1 Wrapper
+===============================*/
+
+html,body{
+    height: 100%;
+}
+
+#wrapper{
+    min-height: 100%;
+    min-width: 1100px;
+}
+
+#footer{
+    min-width: 1100px;
+}
+
+body{
+    background-image: url('../img/bg-body.png');
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+
+.center-box{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+/*==============================
+2 Header
+===============================*/
+
+#header{
+    background-image: url('../img/bg-header.png');
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    height: 133px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.logo{
+    width: 204px;
+    height: 69px;
+    float: left;
+    padding: 30px 55px 0 0;
+}
+
+.logo a{
+    width: 204px;
+    height: 0;
+    padding-top: 69px;
+    display: block;
+    overflow: hidden;
+    background-image: url('../img/logo.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.main-nav ul{
+    padding: 30px 0 0 0;
+}
+
+.main-nav ul li{
+    float: left;
+    margin: 0 1px;
+}
+
+.main-nav ul li a{
+    font-family: 'Comfortaa', cursive;
+    font-size: 22px;
+    line-height: 22px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 15px 19px 18px;
+}
+
+.main-nav ul li a:hover,
+.main-nav ul li a.active{
+    background-image: url('../img/bg-hover-main-nav.png');
+    background-position: 0 0;
+    background-repeat: repeat;
+    border-radius: 5px;
+}
+
+/*==============================
+3 Content
+===============================*/
+
+.coupon{
+    padding: 95px 0 0 0;
+    width: 560px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.coupon h5{
+    font-family: 'Comfortaa', cursive;
+    font-size: 63px;
+    line-height: 63px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.75);
+    padding: 0 0 80px 0;
+}
+
+.coupon .input-box.text,
+.coupon .input-box.btn{
+    background-image: url('../img/bg-input-box.png');
+    background-position: 0 0;
+    background-repeat: repeat;
+    padding: 19px 20px;
+    border-radius: 10px;
+    margin: 0 0 20px 0;
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow:    0px 0px 16px 0px rgba(0, 0, 0, 0.4);
+    box-shadow:         0px 0px 16px 0px rgba(0, 0, 0, 0.4);
+}
+
+.coupon input[type=text]{
+    width: 510px;
+    height: 70px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+    border-radius: 10px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000;
+}
+
+.coupon a.check-coupon{
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    line-height: 18px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    background-image: url('../img/bg-check-coupon.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding: 8px 0 8px 43px;
+    margin: 0 0 17px 0;
+}
+
+.coupon a.check-coupon:hover{
+    background-position: 0 bottom;
+}
+
+.coupon .input-box.btn{
+    padding: 19px 20px;
+    border-radius: 50px;
+    margin: 0 0 75px 0;
+}
+
+.coupon button[type=submit]{
+    font-family: 'Comfortaa', cursive;
+    font-size: 50px;
+    line-height: 50px;
+    color: #1172b2;
+    font-weight: 700;
+    text-shadow: -1px 1px 0px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    background-image: url('../img/bg-button.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 520px;
+    height: 70px;
+}
+
+.coupon .input-box.btn:hover{
+    background-image: url('../img/bg-input-box-hover.png');
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+
+.social-box{
+    margin: 0 0 90px 0;
+}
+
+.social-box p{
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.social-box ul{
+    padding: 0;
+}
+
+.social-box ul li{
+    display: inline-block;
+    background-image: url('../img/bg-input-box.png');
+    background-position: 0 0;
+    background-repeat: repeat;
+    padding: 7px;
+    padding-bottom: 5px;
+    border-radius: 90px;
+    margin: 0 30px 0 0;
+}
+
+.social-box ul li:hover{
+    background-color: #fff;
+}
+
+.social-box ul li.last{
+    margin: 0;
+}
+
+.tag-cloud{
+    background-image: url('../img/bg-cloud.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding: 31px 0 0 0;
+    margin: 0 0 50px 0;
+    width: 560px;
+}
+
+.tag-cloud p{
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+    padding: 0 0 23px 0;
+    margin: -43px 0 0 0;
+}
+
+.inner-box{
+    border: 1px solid #fff;
+    border-top: none;
+    border-radius: 0 0 30px 30px;
+    margin: 0 1px 0 0;
+}
+
+/*==============================
+4 Footer
+===============================*/
+
+#footer{
+    background-image: url('../img/bg-footer.png');
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    height: 178px;
+    position: relative;
+    padding: 7px 0 0 0;
+}
+
+.top-footer{
+    padding: 0 0 8px 0;
+    text-align: center;
+}
+
+.top-footer ul{
+    padding: 0;
+}
+
+.top-footer ul li{
+    float: left;
+    background-image: url('../img/bg-footer-li.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding: 0 26px 0 0;
+    margin: 0 10px 0 0;
+}
+
+.top-footer ul li.last{
+    background-image: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-footer ul li a{
+    display: block;
+}
+
+.top-footer ul li a img{
+    border: 3px solid transparent;
+    border-radius: 100px;
+}
+
+.top-footer ul li a img:hover{
+    border: 3px solid #fff;
+}
+
+.top-footer p{
+    font-family: 'Comfortaa', cursive;
+    font-size: 22px;
+    line-height: 22px;
+    color: #fff;
+    padding: 50px 0 0 0px;
+    display: inline-block;
+}
+
+.left-list{
+    float: left;
+}
+
+.right-list{
+    float: right;
+}
+
+.bottom-footer{
+    position: relative;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.copyright p{
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    line-height: 15px;
+    color: #6e6e6e;
+    font-weight: 300;
+    padding: 17px 0 0 0;
+}
+
+.design{
+    background-image: url('../img/bg-design.png');
+    background-position: 0 3px;
+    background-repeat: no-repeat;
+    padding: 0 0 0 32px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.design p,
+.design p a{
+    font-family: 'Comfortaa', cursive;
+    font-size: 12px;
+    line-height: 15px;
+    color: #6e6e6e;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 0;
+}
+
+/*==============================
+5 Styles for page Registration
+===============================*/
+
+.main-content{
+    background-color: #fff;
+    background-image: url('../img/glow.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+    box-shadow:         0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+    padding: 40px 40px 110px 40px;
+    position: relative;
+}
+
+.bread-crumbs ul{
+    padding: 0 0 25px 0;
+}
+
+.bread-crumbs ul li{
+    font-family: 'Comfortaa', cursive;
+    font-size: 12px;
+    line-height: 12px;
+    color: #999;
+    display: inline-block;
+}
+
+.bread-crumbs ul li a{
+    font-family: 'Comfortaa', cursive;
+    font-size: 12px;
+    line-height: 12px;
+    color: #999;
+    text-decoration: none;
+}
+
+.bread-crumbs ul li a:hover{
+    text-decoration: underline;
+}
+
+.main-content h2{
+    font-family: 'Comfortaa', cursive;
+    font-size: 50px;
+    line-height: 50px;
+    color: #147cc1;
+    padding: 0 0 15px 0;
+}
+
+.main-content p,
+.main-content p a{
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    line-height: 22px;
+    color: #919191;
+    font-weight: 300;
+    padding: 0 0 10px 0;
+}
+
+.main-content .input-box{
+    padding: 0 0 20px 0;
+}
+
+.main-content form label{
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    line-height: 18px;
+    color: #3e3e3e;
+    font-weight: 300;
+    display: block;
+    padding: 0 0 10px 0;
+}
+
+.main-content form input[type=text],
+.main-content form input[type=password]{
+    width: 358px;
+    height: 50px;
+    border: 1px solid #00aeef;
+    outline: none;
+    border-radius: 8px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    line-height: 18px;
+    color: #777;
+    font-weight: 300;
+    padding: 0 10px;
+}
+
+.main-content form button{
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #3498db;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 380px;
+    height: 52px;
+}
+
+.main-content form button:hover{
+    background-color: #0072bc;
+}
+
+/*==============================
+5 Styles for page Autorization
+===============================*/
+
+.main-content p.autorization{
+    width: 570px;
+}
+
+.main-content p a{
+    padding: 0;
+}
+
+.icon-box{
+    position: absolute;
+    right: 100px;
+    top: 105px;
+    width: 349px;
+    height: 347px;
+}
+
+.footer-block{
+    height: 185px;
+}
+
+#footer{
+    margin-top: -185px;
+}

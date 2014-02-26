@@ -1158,13 +1158,23 @@ a.up.about-package {
     float: left;
     width: 170px;
     padding: 0 80px;
+    height: 115px;
 }
 
-.text-box .description {
+.text-box .image-box img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.text-box .description{
     padding: 0 20px 20px 0;
 }
 
-.text-box .description h5 {
+.main-content > .text-box > .description{
+    margin: 0 0 0 330px;
+}
+
+.text-box .description h5{
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     line-height: 20px;
@@ -3105,6 +3115,11 @@ a.watch-link:hover {
     line-height: 33px;
     color: #fff;
     font-weight: 300;
+    display: inline-block;
+    background-image: url('../img/rouble.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding: 0 20px 0 0;
 }
 
 .pack-text {
@@ -3508,3 +3523,4 @@ html, body {
 }
 
 }
+
