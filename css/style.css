@@ -2994,14 +2994,14 @@ a.watch-link:hover {
 }
 
 .pack-box-row:after {
-                        width: 100%;
-                        height: 0;
-                        visibility: hidden;
-                        overflow: hidden;
-                        content: '';
-                        display: inline-block;
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    content: '';
+    display: inline-block;
 
-        }
+}
 
 .pack-box{
     background-color: #2e3133;
@@ -3497,7 +3497,7 @@ html, body {
     background-position: right 0;
 }
 
-wrapper .favorites.active {
+#wrapper .favorites.active {
     background-position: right 0;
 }
 
