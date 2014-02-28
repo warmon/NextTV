@@ -918,11 +918,11 @@ body.other-bg #container {
     font-size: 14px;
     line-height: 14px;
     color: #000;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .bread-crumbs ul li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .main-content .banner {
@@ -969,6 +969,7 @@ body.other-bg #container {
     left: 0;
     top: 104px;
     width: 1030px;
+    min-height: 250px;
 }
 
 .widget-box h2 {
@@ -990,7 +991,7 @@ body.other-bg #container {
 }
 
 .subscription {
-    width: 180px;
+    text-align: center;
     margin: 0 auto 33px;
 }
 
@@ -1019,6 +1020,7 @@ body.other-bg #container {
 
 .quantity {
     background-color: #007fb1;
+    display: inline-block;
 }
 
 .quantity p {
@@ -1026,9 +1028,9 @@ body.other-bg #container {
     font-size: 13px;
     line-height: 13px;
     color: #fff;
-    float: left;
     padding: 0 0 7px 0;
     text-align: center;
+    display: inline-block;
 }
 
 .quantity p span {
@@ -1045,7 +1047,7 @@ body.other-bg #container {
 }
 
 .quantity p.rightp {
-    width: 109px;
+    width: 108px;
 }
 
 .inner-content {
@@ -3022,6 +3024,8 @@ a.watch-link:hover {
     border-radius: 5px;
     position: relative;
     margin: 0 0px 0 0;
+    text-align: left;
+    min-height: 440px;
 }
 
 .pack-box.last {
@@ -3034,6 +3038,14 @@ a.watch-link:hover {
 
 .top-pack {
     position: relative;
+    text-align: center;
+}
+
+.top-pack > img{
+    max-height: 197px;
+    max-width: 301px;
+    width: auto !important;
+    height: auto !important;
 }
 
 .top-pack .channels {
@@ -3044,6 +3056,7 @@ a.watch-link:hover {
     left: 0;
     bottom: 0;
     width: 300px;
+    text-align: left;
 }
 
 .top-pack .channels p {
@@ -3524,3 +3537,11 @@ html, body {
 
 }
 
+.text-box a{
+    color: #000000;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
