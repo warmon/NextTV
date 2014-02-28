@@ -113,8 +113,6 @@ $(document).ready(function () {
             return false;
         });
     });
-
-
 });
 
 $(window).load(function () {
