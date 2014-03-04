@@ -992,6 +992,7 @@ body.other-bg #container {
     line-height: 75px;
     color: #fff;
     font-weight: 700;
+    word-wrap: break-word;
 }
 
 .subscription {
