@@ -968,7 +968,7 @@ body.other-bg #container {
     position: absolute;
     left: 0;
     top: 104px;
-    width: 1030px;
+    width: 100%;
     min-height: 250px;
 }
 
@@ -3043,7 +3043,7 @@ a.watch-link:hover {
 
 .top-pack > img{
     max-height: 197px;
-    max-width: 301px;
+    max-width: 300px;
     width: auto !important;
     height: auto !important;
 }
