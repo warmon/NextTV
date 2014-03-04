@@ -968,7 +968,7 @@ body.other-bg #container {
     position: absolute;
     left: 0;
     top: 104px;
-    width: 1030px;
+    width: 100%;
     min-height: 250px;
 }
 
@@ -3025,7 +3025,13 @@ a.watch-link:hover {
     position: relative;
     margin: 0 0px 0 0;
     text-align: left;
-    min-height: 440px;
+    min-height: 340px;
+    padding-bottom: 120px;
+}
+
+.pack-box .button-block{
+    bottom: 0;
+    position: absolute;
 }
 
 .pack-box.last {
@@ -3043,7 +3049,7 @@ a.watch-link:hover {
 
 .top-pack > img{
     max-height: 197px;
-    max-width: 301px;
+    max-width: 300px;
     width: auto !important;
     height: auto !important;
 }
@@ -3544,4 +3550,5 @@ html, body {
     line-height: 18px;
     padding-left: 30px;
     padding-right: 30px;
+    text-decoration: none;
 }

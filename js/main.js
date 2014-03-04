@@ -21,7 +21,7 @@ $(document).ready(function () {
     $('.pack-box-row .pack-box:last-child').addClass('last');
     $('.order-row .my-films:last-child').addClass('last');
     $('.main-content.map ul li:last').addClass('last');
-
+    $('.pack-box.green.last').after('<article class="pack-box" style="opacity: 0; width: 334px;"></article>');
 
     //remove default input text
     $('input[type=text], input[type=password], textarea').each(function () {
